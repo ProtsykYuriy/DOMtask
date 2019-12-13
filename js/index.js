@@ -20,8 +20,6 @@ buttonAddItem.addEventListener('click', getValue);
 let li = document.createElement('li');
 let span = document.createElement('span');
 let buttonDelete = document.createElement('button');
-//li.appendChild(span);
-//li.appendChild(buttonDelete);
 span.textContent = inputValue;
 buttonDelete.textContent = 'delete';
 let deleteItem = function () {
